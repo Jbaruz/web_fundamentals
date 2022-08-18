@@ -1,6 +1,6 @@
 # Fundamentals web
-- Exam
+- Exam 
 - Practices
 - Tasks
 
-* Everithing was done by Jbaruz
+* Everything was done by Jbaruz
