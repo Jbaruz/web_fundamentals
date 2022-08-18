@@ -1,5 +1,4 @@
 # Fundamentals web
-- HTML
 - Exam
 - Practices
 - Tasks
