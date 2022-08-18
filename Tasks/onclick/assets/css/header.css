@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    /* outline: 1px dotted pink; */
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5c5c5;
+    height: 11vh;
+    margin: 0 auto;
+    width: 60%;
+    padding: 0% 3% 0% 3%;
+}
+header button{
+    background-color: #006ae8;
+    width: 15%;
+    color: white;
+    padding: 4px;
+    border: thin solid black;
+}
+header button:hover{
+    background-color: #00e897;
+
+}

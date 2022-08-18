@@ -1,0 +1,19 @@
+.right-container{
+    width: 20vw;
+    height: 25vh;
+    border: 3px solid black;
+}
+.right-container h2{
+    padding: 7%;
+}
+.right-container button{
+    background-color:#7bbe64;
+    width: 80%;
+    height: 17%;
+    margin: 3% auto;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.right-container button:hover{
+    background-color:#30e2e2;
+}

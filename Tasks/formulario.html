@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form style="width:250px">
+        <label for="name">
+            First Name:
+            <input type="text">
+        </label>
+        <label for="lastname">
+            Last Name:
+            <input type="text">
+        </label>
+        <label for="email">
+            Email Address:
+            <input type="text">
+        </label>
+        <label for="Contrasena">
+            Password:
+            <input type="password">
+        </label>
+        <label for="confirmacion">
+            Confirm Password:
+            <input type="password">
+        </label>
+        <label for="fecha">
+            Birthday:
+            <input type="date"> 
+        </label>
+        <p>Gender Identity:</p>
+        <label for="man">
+            Male
+            <input type="radio" name="sexo" value="man" id="man">
+        </label>
+        <label for="woman">
+            Female
+            <input type="radio" name="sexo" value="woman" id="woman">
+        </label>
+        <label for="Nonbi">
+            Non-binary
+            <input type="radio" name="sexo" value="Nonbi" id="Nonbi">
+        </label>
+        <label for="other">
+            I prefer not to answer
+            <input type="radio" name="sexo" value="other" id="other">
+        </label>
+        <p> A short description about myself:</p>
+        </p>
+            <label for="message">
+                <textarea name="message" cols="30" rows="10"></textarea>
+            </label>
+        <a>Favorite languages :
+        <select name="programas">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="PHP">PHP</option>
+            <option value="Ruby">Ruby</option>
+            <option value="swift">Swift</option>
+            <option value="Kotlin">Kotlin</option>	
+        </select> <br>
+        <label for="confirmEmail">
+            <input type="checkbox" name="yes" value="confirmEmail" id="confirmEmail">
+            Yes, I would like to receive periodic email updates
+        </label> <br>
+        <p><input type="submit" value="Create Account"></p>
+    </form>
+    <p>* Indicates a required field</p>
+
+</body>
+</html>

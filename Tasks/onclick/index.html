@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On click</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <form>
+            <div>
+                <input type="search" id="mySearch" name="q"
+                placeholder="Search" size="30">
+            </div>
+        </form>
+        <button onclick="change(this)">Login</button>
+    </header>
+    <main>
+        <div class="left-container">
+            <div class="topleft-container">
+                <div class="topleft-left">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <h6>Plural : ninjas</h6>
+                    <button onclick="like()">
+                        <p><span id ="btnTop1">0</span><nav>likes</nav></p>
+                    </button>
+                </div>
+                <div class="topleft-right">
+                    <p><strong>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu </a></strong></p>
+                </div>
+            </div>
+            <div class="bottomleft-container">
+                <div class="bottomleft-left">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <h6>Plural : ninjas</h6>
+                    <button onclick="gustar()">
+                        <p><span id ="btnTop2">0</span><nav>likes</nav></p>
+                    </button>
+                </div>
+                <div class="bootomleft-right">
+                    <p><strong>A <a href="#">programmer</a> who breaks down problems  with <a href="#"> zen</a>-like focus.</strong></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <h2>Dojonary is defined by YOU</h2>
+            <button onclick="remove(this)">Add Definition</button>
+        </div>
+    </main>
+    <script src="assets/js/botones.js"></script>
+</body>
+</html>
